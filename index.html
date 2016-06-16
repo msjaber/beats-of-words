@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Letters Animation</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="panel.css">
+	<script type="text/javascript" src="main.js"></script>
+	
+	<style>	
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		body {
+		    background: radial-gradient(circle, #fff1fb, rgba(228, 88, 174, 0.83));
+			  overflow: hidden;
+		}
+	  .transition {
+	      -webkit-transition:all 10s ease-out;
+	      -moz-transition:all 10s ease-out;
+	      -ms-transition:all 10s ease-out;
+	      -o-transition:all 10s ease-out; 
+	      transition:all 10s ease-out;
+	    }
+		
+		.arena {
+			width: 400px;
+			height: 400px;
+			margin: 0 auto;
+		}
+
+		.heart_container {
+			position: relative;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;	
+			margin-top: 250px;
+		}
+
+		.heart {
+			position: absolute;
+			z-index: 99;
+	      -webkit-transition:all 10s ease-out;
+	      -moz-transition:all 10s ease-out;
+	      -ms-transition:all 10s ease-out;
+	      -o-transition:all 10s ease-out; 
+	      transition:all 10s ease-out;
+			animation: hard-beat 1s infinite;
+		}
+		
+ 		.shadow {
+ 			position: absolute;
+		    top: 2px;
+		    right: -15px;
+			animation: shadow-beat 1s infinite;
+			opacity: 0.8;
+			    z-index: -99;
+ 		}
+		.wordsTree {
+			position: absolute;
+			width: 100px;
+			height: 100px;
+		    z-index: 0;
+		}
+
+		.wordsTree ul {
+			position: absolute;
+			left: 40px;
+			top: 20px;
+
+		}
+
+		.wordsTree ul li {
+			position: absolute;
+			list-style: none;
+			text-align: center;
+			width: 20px;
+			height: 20px;
+			font-size: 1.3em;
+			font-weight: bold;
+		}
+
+		.list-title {
+			padding-top: 10px;
+		}
+
+@keyframes soft-beat {
+    0% { 
+    		transform: scale(1);
+    		box-shadow:0 0 40px #d5093c;
+    	}
+
+    50% { 
+    		transform: scale(1.02);
+    		box-shadow:0 0 70px #d5093c;
+    	}
+
+    100% { transform: scale(1);
+    		box-shadow:0 0 40px #d5093c;
+    	}
+}
+
+@keyframes hard-beat {
+    0% { 
+    		transform: scale(1);
+    	}
+
+    50% { 
+    		transform: scale(1.12);
+
+    	}
+
+    100% { transform: scale(1);
+    	}
+}
+
+@keyframes shadow-beat {
+    0% { 
+    		transform: scale(1);
+    		opacity: 0.8; 
+    	}
+
+    50% { 
+    		transform: scale(1.12);
+			opacity: 1;
+    	}
+
+    100% { transform: scale(1);
+	    	opacity: 0.8;
+    	}
+}
+	</style>
+</head>
+<body >
+	<div class="arena">
+		<div class="heart_container">
+			<img class='heart'src="bg-heart.svg" alt="">	
+			<img class='shadow'src="shadow.png" alt="">	
+			<ul class="wordsTree">
+				
+			</ul>
+		</div>
+	</div>
+<div class="l-container">
+		<div>
+			<label for="arabic">
+				<input type="radio" name="language" id="arabic"  class="language-input" value="arabic" checked/>
+				<span>Arabic</span>
+			</label>								
+			<label for="english">
+				<input type="radio" name="language" id="english" class="language-input"  value="english" />
+				<span>English</span>
+			</label>
+			<label for="spanish">
+				<input type="radio" name="language" id="spanish" class="language-input"  value="spanish"/>
+				<span>Spanish</span>
+			</label>
+		</div>
+</div>
+
+</body>
+</html>
