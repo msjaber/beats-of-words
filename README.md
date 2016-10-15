@@ -8,4 +8,4 @@ Try to customize it to suite your heart. You have a heart full of words, make yo
 
 **Preview**: http://codepen.io/jaberos/pen/oLxJGv
 
-![alt text](https://d1zjcuqflbd5k.cloudfront.net/files/acc_62120/1ekwp?response-content-disposition=inline;%20filename=Screen%20Shot%202016-06-18%20at%2002.52.39.png&Expires=1466207878&Signature=KMKvRErWx1QSVFNP2zA5T4ep-djzL1MWEJUGPY5owmIVkFjKcIjJOMR8Swmi0NydnmX6b8xhMW43IDO9v5DZkkliBIcHssS3g9TZ-ALlqoMMzH1jGC2EbmSBgPiA4lomq6vVvD9sFIme3PkJY9qUPG-W0zl97GsfL~zgpdp6aCw_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA "Logo Title Text 1")
+![alt text](https://scontent-fra3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/13392838_1694544717475541_204074886_n.jpg "Logo Title Text 1")
