@@ -2,9 +2,8 @@
 
 A quick side-project I've built for the love of words.
 
- All the animations of the words and letters, as well as the colors of each, are based on randomness. I tried to make it looks and feels beautiful from the outside, as well as from the inside, where the code is belong. The code is clean and fully documented, and as much as possible I tried to make easy to understand and configured.
+ All the animations of the words and letters, as well as the colors of each, are generated randomlly. I tried to make it looks and feels beautiful from the outside, as well as from the inside, where the code is belong. The code is clean and fully documented, and as much as possible I tried to make easy to understand and configured.
 
-Try to customize it to suite your heart. You have a heart full of words, make your heart beating your words!
 
 **Preview**: http://codepen.io/jaberos/pen/oLxJGv
 
